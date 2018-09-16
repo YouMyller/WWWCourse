@@ -1,3 +1,3 @@
 # WWWCourse
 
-Hello. Text has been written on this file.
+Hello. Text has been written on this page.
