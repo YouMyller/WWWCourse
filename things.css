@@ -21,6 +21,68 @@ body
     color: #F5F5DC;
 }
 
+/* Header Menu */
+
+#topmenu
+{
+    display: block;
+    list-style: none;
+    padding: 0 0px 0px 278px;
+    float: right;
+    width: 415px;
+}
+
+#topmenu li
+{
+    display: inline;
+}
+
+#topmenu a
+{
+    display: block;
+    float: left;
+    height: 28px;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    padding: 9px 15px 0px 15px;
+    text-align: center;
+}
+
+#topmenu a, #topmenu a:visited, #topmenu a:active
+{
+    color: #FFFFFF;
+}
+
+#topmenu a:hover
+{
+    color: #FFFFFF;
+    background-color: #B52E10;
+}
+
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active
+{
+    color: #FFFFFF;
+    background-color: #B52E10;
+}
+
+#mainpage 
+{
+    width: 700px;
+    float: left;
+    padding: 5px 5px 5px 0px;
+    height: auto;
+}
+
+#mainpage blockquote
+{
+    background: #efefef;
+    display: block;
+    margin: 5px;
+    font: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+
 /*
 type
 {
