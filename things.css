@@ -1,13 +1,74 @@
-body 
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+/*body 
 {
     background-color: lightblue;
     background: #F0FFFF (url Images/www_course_lopputyö.jpg) repeat-x;
 }
 
+#header
+{
+    height: 240px;
+    margin: 0px auto 15px auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #F5F5DC;
+}*/
+
 
 /* Header Menu */
 
-#topmenu
+/*#topmenu
 {
     display: block;
     list-style: none;
@@ -76,18 +137,10 @@ body
     color: #666666;
 }
 
-#header
-{
-    height: 240px;
-    margin: 0px auto 15px auto;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: #F5F5DC;
-}
-
 #topbar
 {
     height: 78px;
-}
+}*/
 
 /*
 type
