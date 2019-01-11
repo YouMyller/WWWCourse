@@ -1,63 +1,84 @@
 
-* {
-  box-sizing: border-box;
+body 
+{
+    background-color: lightblue;
+    background: #FFFFFF (url Images/www_course_lopputyö.jpg) repeat-x;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+#header
+{
+    height: 10px;
+    margin: 0px auto 15px auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #FFF5DC;
 }
 
-/* Style the header */
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
+
+/* Header Menu */
+
+#topmenu
+{
+    display: block;
+    list-style: none;
+    padding: 0 0px 0px 278px;
+    float: right;
+    width: 615px;
 }
 
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
+#topmenu li
+{
+    display: inline;
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
+#topmenu a
+{
+    display: block;
+    float: left;
+    height: 36px;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    padding: 9px 15px 10px 15px;
+    text-align: center;
 }
 
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+#topmenu a, #topmenu a:visited, #topmenu a:active
+{
+    color: #FFFFFF;
 }
 
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
+#topmenu a:hover
+{
+    color: #FFFFFF;
+    background-color: #B52E10;
 }
 
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
+#topmenu .active a:visited, #topmenu .active a:active
+{
+    color: #FFFFFF;
+    background-color: #B52E10;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+
+#mainpage blockquote /*?*/
+{
+    background: #efefef;
+    display: block;
+    margin: 5px;
+    font: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
 }
+
+#wrap
+{
+    width: 350px;
+    margin: 0px auto 15px auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+type
+{
+    font-family: verdana;
+        font-size: 20px;
+} 
