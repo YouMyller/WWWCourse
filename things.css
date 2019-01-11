@@ -23,8 +23,8 @@
 h1
 {
     background-color: orange;
-    font-size: 60px;
-    font-family: Helvetica;
+    /*font-size: 60px;
+    font-family: Helvetica;*/
 }
 
 #topmenu
