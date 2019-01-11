@@ -13,8 +13,12 @@
     color: #FFF5DC;
 }
 
-
-/* Header Menu */
+#header headie
+{
+    background-color: orange;
+    font-size: 60px;
+    font-family: Helvetica;
+}
 
 #topmenu
 {
