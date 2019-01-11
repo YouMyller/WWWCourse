@@ -1,5 +1,5 @@
 
-body 
+#body 
 {
     background-color: lightblue;
     background: #FFFFFF (url Images/www_course_lopputyö.jpg) repeat-x;
@@ -77,7 +77,7 @@ body
     color: #FFFFFF;
 }
 
-type
+#type
 {
     font-family: verdana;
         font-size: 20px;
