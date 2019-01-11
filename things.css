@@ -13,7 +13,14 @@
     color: #FFF5DC;
 }
 
-#header headie
+/*#header headie
+{
+    background-color: orange;
+    font-size: 60px;
+    font-family: Helvetica;
+}*/
+
+h1
 {
     background-color: orange;
     font-size: 60px;
