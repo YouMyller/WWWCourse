@@ -86,7 +86,7 @@ h1
     margin: 0px auto 15px auto;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #FF0000;
 }
 
 #type
@@ -102,11 +102,11 @@ h1
 }
 
 #td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #000000;
   text-align: left;
   padding: 8px;
 }
 
 #tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #000000;
 }
