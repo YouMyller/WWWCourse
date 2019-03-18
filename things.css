@@ -1,7 +1,7 @@
 
-#body 
+#body /*Ei toimi*/
 {
-    background-color: lightblue;
+    background: lightblue;    
     /*background: #FFFFFF (url WWWCourse/Images/www_course_lopputyö.jpg) repeat-x;*/
 }
 
@@ -10,8 +10,8 @@
     height: 10px;
     margin: 0px auto 15px auto;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: #FFF5DC;
-    background: #999
+    color: #FFF5DC;     /*Kiisselinkeltainen*/ /*Ei kai vain... näy???*/
+    background: #999        /*Grey*/ /*Toimii I guess*/
 }
 
 /*#header headie
@@ -21,7 +21,7 @@
     font-family: Helvetica;
 }*/
 
-h1
+h1 /*Toimii!*/
 {
     background-color: orange;
     /*font-size: 60px;
@@ -53,40 +53,40 @@ h1
     text-align: center;
 }
 
-#topmenu a, #topmenu a:visited, #topmenu a:active
+#topmenu a, #topmenu a:visited, #topmenu a:active /*Toimii*/
 {
     color: #008000;     /*Green*/
 }
 
 #topmenu a:hover
 {
-    color: #808000;     /*Olive*/
-    background-color: #B52E10;
+    color: #FFFFFF;     /*White*/
+    background-color: #B52E10;      /*Dark red*/
 }
 
 #topmenu .active a:visited, #topmenu .active a:active
 {
-    color: #800000;     /*Maroon*/
-    background-color: #B52E10;
+    color: #660066;     /*Dark purple*/
+    background-color: #B52E10;      /*Dark red*/
 }
 
 
 #mainpage blockquote /*?*/
 {
-    background: #efefef;
+    background: #efefef;        /*Dark white*/
     display: block;
     margin: 5px;
     font: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
 }
 
-#wrap
+#wrap /*Text - Toimii!*/
 {
     width: 350px;
     margin: 0px auto 15px auto;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: #FF0000;
+    color: #000000;     /*Black*/
 }
 
 #type
@@ -102,11 +102,11 @@ h1
 }
 
 #td, th {
-  border: 1px solid #000000;
+  border: 1px solid #000000;        /*Black*/
   text-align: left;
   padding: 8px;
 }
 
 #tr:nth-child(even) {
-  background-color: #000000;
+  background-color: #000000;        /*Black*/
 }
