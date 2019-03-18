@@ -55,18 +55,18 @@ h1
 
 #topmenu a, #topmenu a:visited, #topmenu a:active
 {
-    color: #FFFFFF;
+    color: #008000;     /*Green*/
 }
 
 #topmenu a:hover
 {
-    color: #FFFFFF;
+    color: #808000;     /*Olive*/
     background-color: #B52E10;
 }
 
 #topmenu .active a:visited, #topmenu .active a:active
 {
-    color: #FFFFFF;
+    color: #800000;     /*Maroon*/
     background-color: #B52E10;
 }
 
