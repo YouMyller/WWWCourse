@@ -129,3 +129,21 @@ input:focus, textarea:focus
   color: red;
   opacity: 1;
 }
+
+#leftbox
+{
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+  border: 3px solid blue;
+}
+
+#rightbox
+{
+  float: left;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+  border: 3px solid green;
+}
