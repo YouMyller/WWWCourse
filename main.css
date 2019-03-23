@@ -147,3 +147,19 @@ input:focus, textarea:focus
   margin: 5px;
   border: 3px solid green;
 }
+
+video
+{
+  width: 100%;
+}
+
+.videowrapper 
+{
+  margin: 0 auto;
+  width: 1000px;
+}
+
+iframe 
+{
+  width: 100%;
+}
