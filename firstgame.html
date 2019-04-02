@@ -2,6 +2,8 @@
 <html>
 <head>
 	
+<p>Click below to position yourself! I mean for us to position you! I mean locate! I mean!!</p>
+<button onclick = "showPosition()"> CLICKETY </button>
 	
 <script>
         function showLocation() 
@@ -9,8 +11,9 @@
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(showPosition);
             }
-            else {
-                alert('Your browser does not support geolocation');
+            else 
+	    {
+                alert('Your browser does not support fucking geolocation');
             }
         }
 
