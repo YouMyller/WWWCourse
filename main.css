@@ -1,12 +1,12 @@
 body:
 {
-  margin: 0;
+  margin: 10;
 }
 
 header
 {
   background: 999;
-  color: white;
+  color: orange;
   padding: 15px 15px 0 15px;
 }
 
