@@ -1,18 +1,18 @@
-body:
+body:   /*This might not be needed*/
 {
-  margin: 10;
+  margin: 20;
 }
 
 header
 {
   background: 999;
   color: orange;
-  padding: 15px 15px 0 15px;
+  padding: 20px 15px 0 15px;
 }
 
 header h1
 {
-  margin: 0;
+  margin: 20;
   display: inline;
 }
 
