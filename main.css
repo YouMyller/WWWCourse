@@ -79,6 +79,7 @@ textarea
   height: 200px;
   width: 250px;
   max-height: 300px;
+  min-height: 100px;
   padding: 5px 15px; /*New*/
 }
 
