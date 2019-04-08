@@ -92,3 +92,9 @@ input:focus, textarea:focus
 {
   color: grey;
 }
+
+footer
+{
+  clear: both;
+  /*display: block;   A new addition*/
+}
