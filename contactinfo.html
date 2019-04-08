@@ -31,7 +31,7 @@
 <h1>Contact</h1>
 <p>Contact me by writing a message!</p>
 
-<form action = "contactform.php" method = "get"> 
+<form action = "contactform.php" method = "get" id = "form1"> 
 	<input type = "text" name = "email" placeholder="Your email address here">
 <hr>
 <p>Your other information:</p>
@@ -53,9 +53,21 @@
 		<option value = "None">Ford3</option>
 	</select-->
 	<hr>
-	<button type = "submit" name = "Submit">Submit</button>
 </form>
 	
+<button onclick = "outputname()">Submit</button>
+	
+<script>
+
+	function outputName()
+	{
+		var email, message;
+		email = "öh";
+		document.write("From: " + email);
+		document.write("Message: " + message);
+	}
+</script>
+
 <hr>
 <footer>Juuso Myllylä 2019</footer>
 	
