@@ -12,18 +12,11 @@ p                           /*Paragraphs*/
   padding: 10px 15px 0 15px;
 }
 
-/*header
-{
-  background: 999;
-  color: red;
-  padding: 20px 15px 0 15px;
-}*/
-
 h1                        /*Main title*/
 {
   margin: 20;
   display: inline;
-  color: white;
+  color: orange;
 }
 
 nav ul
@@ -48,25 +41,9 @@ nav ul li a
   color: purple;
 }
 
-/*.row
-{
-  clear: both;
-}*/
-
-/*.col
-{
-  background: #333;
-  border-radius: 5px;
-  padding: 10px .5%;
-  float: left;
-  margin: .5%;
-  width: 31%;
-}*/
-
 footer
 {
-  clear: both;
-  display: block;   /*A new addition*/
+  /*clear: both;*/
 }
 
 table
@@ -78,13 +55,8 @@ table, th, td
 {
   border: 1px solid #000;
   border-collapse: collapse;
-  padding: 10px;            /*Original under th*/
+  padding: 10px;            
 }
-
-/*th
-{
-    padding: 10px;
-}*/
 
 tr:nth-child(even)
 {
@@ -98,7 +70,7 @@ tr:nth-child(odd)
 
 form
 {
-  width: 600px;
+  width: 300px;
 }
 
 /*input
@@ -109,6 +81,8 @@ form
 textarea
 {
   resize: vertical;
+  height: 200px;
+  width: 600px;
   max-height: 300px;
 }
 
@@ -117,12 +91,6 @@ input:focus, textarea:focus
   box-shadow: 0 0 4px rgba(255, 0, 0, 0.5);
   border: 1px solid rgb(255, 0, 0);
 }
-
-/*::placeholder
-{
-  color: blue;
-  opacity: 1;
-}*/
 
 ::-ms-input-placeholder
 {
