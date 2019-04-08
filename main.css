@@ -10,7 +10,7 @@ p
 {
   background: #666;
   color: white;
-  padding: All;
+  padding: 10px 15px 0 15px;
 }
 
 header
@@ -20,10 +20,15 @@ header
   padding: 20px 15px 0 15px;
 }
 
-header h1
+h1
 {
   margin: 20;
   display: inline;
+}
+
+#special
+{
+  color: blue;
 }
 
 nav ul
