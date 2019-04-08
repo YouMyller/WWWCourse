@@ -13,10 +13,11 @@ p                           /*Paragraphs*/
 
 h1                        /*Main title*/
 {
-  margin: 20;
+  margin: 100;
   display: inline;
   color: orange;
   background: #fff;
+  padding: 5px 15px; /*New*/
 }
 
 nav ul
