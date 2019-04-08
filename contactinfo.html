@@ -61,13 +61,16 @@
 
 	function outputName()
 	{
-		var email, message;
-		email = "öh";
-		document.write("From: " + email);
-		document.write("Message: " + message);
+		var x, y, email, message;
+		x = document.getElementById("form1");
+		y = x.elements["email"].value;
+		document.getElementById("page").innerHTML = ("Hello " + y + "<br>");
+		document.getElementById("page").innerHTML = "From: " + y;
 	}
 </script>
 
+<p id = "page"></p>
+	
 <hr>
 <footer>Juuso Myllylä 2019</footer>
 	
