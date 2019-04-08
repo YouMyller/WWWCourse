@@ -1,23 +1,23 @@
-body                        /*Main background*/
+body                        
 {
   margin: 20;
   background: #999;
   font-family: arial;
 }
 
-p                           /*Paragraphs*/
+p                           
 {
   color: white;
   padding: 10px 15px 0 15px;
 }
 
-h1                        /*Main title*/
+h1                        
 {
   margin: 100;
   display: inline;
   color: orange;
   background: #696969
-  padding: 5px 15px; /*New*/
+  padding: 5px 15px; 
 }
 
 nav ul
@@ -69,8 +69,8 @@ form
   width: 300px;
   background-color: #ddd;
   color: white;
-  margin: 5px; /*New*/
-  padding: 5px 15px; /*New*/
+  margin: 5px;
+  padding: 5px 15px;
 }
 
 textarea
@@ -80,7 +80,7 @@ textarea
   width: 250px;
   max-height: 300px;
   min-height: 100px;
-  padding: 5px 15px; /*New*/
+  padding: 5px 15px;
 }
 
 input:focus, textarea:focus
@@ -97,5 +97,10 @@ input:focus, textarea:focus
 footer
 {
   clear: both;
-  /*display: block;   A new addition*/
+  color: white;
+}
+
+caption
+{
+  color: white;
 }
