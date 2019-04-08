@@ -1,7 +1,16 @@
-body:   /*This might not be needed*/
+body   
 {
   margin: 20;
   color: orange;
+  background: #999;
+  font-family: arial;
+}
+
+p
+{
+  background: #666;
+  color: white;
+  padding: All;
 }
 
 header
