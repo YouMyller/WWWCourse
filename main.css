@@ -1,12 +1,13 @@
 body:   /*This might not be needed*/
 {
   margin: 20;
+  color: orange;
 }
 
 header
 {
   background: 999;
-  color: orange;
+  color: red;
   padding: 20px 15px 0 15px;
 }
 
