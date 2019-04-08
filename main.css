@@ -7,7 +7,6 @@ body                        /*Main background*/
 
 p                           /*Paragraphs*/
 {
-  /*background: #666;*/
   color: white;
   padding: 10px 15px 0 15px;
 }
@@ -17,6 +16,7 @@ h1                        /*Main title*/
   margin: 20;
   display: inline;
   color: orange;
+  background: #fff;
 }
 
 nav ul
@@ -39,11 +39,6 @@ nav ul li
 nav ul li a
 {
   color: purple;
-}
-
-footer
-{
-  /*clear: both;*/
 }
 
 table
@@ -71,12 +66,11 @@ tr:nth-child(odd)
 form
 {
   width: 300px;
+  background-color: #ddd;
+  color: white;
+  margin: 5px; /*New*/
+  padding: 5px 15px; /*New*/
 }
-
-/*input
-{
-  width: 100%;
-}*/
 
 textarea
 {
@@ -84,6 +78,7 @@ textarea
   height: 200px;
   width: 600px;
   max-height: 300px;
+  padding: 5px 15px; /*New*/
 }
 
 input:focus, textarea:focus
