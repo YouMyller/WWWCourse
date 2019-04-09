@@ -28,17 +28,6 @@
 	
 <body>
 	
-<script>
-	var form = document.getElementyId('form1');
-
-	form.onsubmit = function(e)
-	{
-		e.preventDefault();
-		var result = document.getElementById('result');
-		result.innerHTML = 'From: ' + form.theirname.value;
-	}; 
-</script>
-	
 <h1>Contact</h1>
 <p>On this page, you can write a message!</p>
 
@@ -61,7 +50,16 @@
 
 <p id = "result"></p>
 	
-<p>kakka!<p>
+<script>
+	var form = document.getElementById('form1');
+
+	form.onsubmit = function(e)
+	{
+		e.preventDefault();
+		var result = document.getElementById('result');
+		result.innerHTML = 'From: ' + form.theirname.value;
+	}; 
+</script>
 	
 <hr>
 <footer>Juuso Myllylä 2019</footer>
