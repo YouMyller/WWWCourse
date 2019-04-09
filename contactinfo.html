@@ -40,7 +40,7 @@
         Male <input type = "radio" name = "gender" value = "gender" placeholder="Male">
 	Female <input type = "radio" name = "gender" value = "gender" placeholder="Female">
 	Other <input type = "radio" name = "gender" value = "gender" placeholder="Other">
-	Prefer not to say <input type = "radio" name = "gender" value = "gender" placeholder="Prefer not to say">
+	Prefer not to sayyy <input type = "radio" name = "gender" value = "gender" placeholder="Prefer not to say">
 	
 	<textarea name = "message" placeholder = "Write a message!"></textarea>
 	<hr>
@@ -79,9 +79,9 @@
 		var message = document.getElementById('message');
 		
 		thankyou.innerHTML = 'Thank you! Here is what you wrote:';
-		thankyou.innerHTML = 'From: ' + form.theirname.value;
-		theirname.innerHTML = 'Gender: ' + form.gender.value;
-		gender.innerHTML = 'Message: ' + form.message.value;
+		theirname.innerHTML = 'From: ' + form.theirname.value;
+		gender.innerHTML = 'Gender: ' + form.gender.value;
+		message.innerHTML = 'Message: ' + form.message.value;
 		
 		form.reset();
 	}; 
