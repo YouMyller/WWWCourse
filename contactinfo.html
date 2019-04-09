@@ -29,12 +29,13 @@
 <body>
 	
 <h1>Contact</h1>
-<p>Contact me by writing a message!</p>
+<p>On this page, you can write a message!</p>
 
 <form id = "form1"> 				<!--action = "contactform.php" method = "get" -->
-	<input type = "text" name = "email" placeholder="Your remail address here">
-<hr>
-<p>Your other information:</p>
+	<input type = "text" name = "name" placeholder="Your name here, please">
+	
+	<hr>
+	<!--<p>Your other information:</p>
 	
 	Male: <input type = "radio" name = "email" placeholder="Male">
 	Female: <input type = "radio" name = "Gender" placeholder="Female">
@@ -42,8 +43,8 @@
 	Prefer not to say: <input type = "radio" name = "Gender" placeholder="Prefer not to say">
 	
 	<textarea name = "message" placeholder = "Write a message!"></textarea>
-	<hr>
-	<input type = "submit" value = "Submit">
+	<hr>-->
+	<p><input type = "submit" value = "Submit"></p>
 	<!--button onclick = "outputname()">Submit</button-->
 </form>
 
@@ -55,8 +56,8 @@
 	form.onsubmit = function(e)
 	{
 		e.preventDefault();
-		var result = document.getElementById('form1');
-		result.innerHTML = 'From: ' + form.email.value;
+		var result = document.getElementById('result');
+		result.innerHTML = 'From: ' + form.name.value;
 		form.reset();
 	}; 
 </script>
