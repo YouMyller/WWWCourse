@@ -32,7 +32,7 @@
 <p>On this page, you can write a message!</p>
 
 <form id = "form1"> 				<!--action = "contactform.php" method = "get" -->
-	<input type = "text" name = "name" placeholder="Your name here, please">
+	<input type = "text" name = "theirname" placeholder="Your name here, please">
 	
 	<hr>
 	<!--<p>Your other information:</p>
@@ -57,8 +57,7 @@
 	{
 		e.preventDefault();
 		var result = document.getElementById('result');
-		result.innerHTML = 'From: ' + form.name.value;
-		/*form.reset();*/
+		result.innerHTML = 'From: ' + form.theirname.value;
 	}; 
 </script>
 	
