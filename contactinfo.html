@@ -47,10 +47,10 @@
 	<p><input type = "submit" value = "Submit"></p>
 </form>
 
-<p id = "thankyou"></p>
-<p id = "theirname"></p>
-<p id = "gender"></p>
-<p id = "message"></p>
+<p id = "Thankyou"></p>
+<p id = "Theirname"></p>
+<p id = "Gender"></p>
+<p id = "Message"></p>
 	
 <script>
 	var form = document.getElementById('form1');
@@ -58,29 +58,34 @@
 	form.onsubmit = function(e)
 	{
 		e.preventDefault();
-		var thankyou = document.getElementById('thankyou');
-		var theirname = document.getElementById('theirname');
-		var gender = document.getElementsByName('gender');
+		var thankyouV = document.getElementById('Thankyou');
+		var theirnameV = document.getElementById('Theirname');
+		var genderV = document.getElementsByName('Gender');
 			if(form.gender[0].checked)
 			{
 				var val = form.gender[0].value;
-				gender.innerHTML = 'Gender: ' + val;
+				genderV.innerHTML = 'Gender: ' + val;
 			}
 			else if(form.gender[1].checked)
 			{
 				var val = form.gender[1].value;
-				gender.innerHTML = 'Gender: ' + val;
+				genderV.innerHTML = 'Gender: ' + val;
 			}
 			else if(form.gender[2].checked)
 			{
 				var val = form.gender[2].value;
-				gender.innerHTML = 'Gender: ' + val;
+				genderV.innerHTML = 'Gender: ' + val;
 			}
-		var message = document.getElementById('message');
+			else if(form.gender[3].checked)
+			{
+				var val = form.gender[3].value;
+				genderV.innerHTML = 'Gender: ' + val;
+			}
+		var messageV = document.getElementById('Message');
 		
-		thankyou.innerHTML = 'Thank you! Here is what you wrote:';
-		theirname.innerHTML = 'From: ' + form.theirname.value;
-		message.innerHTML = 'Message: ' + form.message.value;
+		thankyouV.innerHTML = 'Thank you! Here is what you wrote:';
+		theirnameV.innerHTML = 'From: ' + form.theirname.value;
+		messageV.innerHTML = 'Message: ' + form.message.value;
 		
 		form.reset();
 	}; 
