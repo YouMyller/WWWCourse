@@ -31,29 +31,6 @@
 <h1>Contact</h1>
 <p>On this page, you can write a message!</p>
 	
-<script>
-function fuckYou()
-{
-	var genderV = document.getElementsByName("Gender");
-		if(form.gender[0].checked)
-		{
-			alert("Saatana");
-		}
-		else if(form.gender[1].checked)
-		{
-			alert("Saatanaaa");
-		}
-		else if(form.gender[2].checked)
-		{
-			alert("Saatanaaaaaaaaaaaa");
-		}
-		else if(form.gender[3].checked)
-		{
-			alert("Saatanaaaaa");
-		}
-}
-</script>
-	
 <form id = "form1"> 				
 	<input type = "text" name = "theirname" placeholder="Your name here, please">
 	
@@ -63,7 +40,7 @@ function fuckYou()
         Male <input type = "radio" name = "gender" value = "gender" placeholder="Male">
 	Female <input type = "radio" name = "gender" value = "gender" placeholder="Female">
 	Other <input type = "radio" name = "gender" value = "gender" placeholder="Other">
-	Prefer not to say <input type = "radio" name = "gender" value = "gender" placeholder="Prefer not to say">
+	Prefer not to sayyy <input type = "radio" name = "gender" value = "gender" placeholder="Prefer not to say">
 	
 	<textarea name = "message" placeholder = "Write a message!"></textarea>
 	<hr>
@@ -84,6 +61,29 @@ function fuckYou()
 		var thankyouV = document.getElementById('Thankyou');
 		var theirnameV = document.getElementById('Theirname');
 		var messageV = document.getElementById('Message');
+		var genderV = document.getElementById('Gender');
+		
+		var genderr = document.getElementsByName("gender");
+			if(genderr[0].checked)
+			{
+				var val = genderr[0].value;
+				genderV.innerHTML = 'Gender: ' + val;
+			}
+			else if(form.genderr[1].checked)
+			{
+				var val = genderr[1].value;
+				genderV.innerHTML = 'Gender: ' + val;
+			}
+			else if(form.genderr[2].checked)
+			{
+				var val = genderr[2].value;
+				genderV.innerHTML = 'Gender: ' + val;
+			}
+			else if(form.genderr[3].checked)
+			{
+				var val = genderr[3].value;
+				genderV.innerHTML = 'Gender: ' + val;
+			}
 		
 		thankyouV.innerHTML = 'Thank you! Here is what you wrote:';
 		theirnameV.innerHTML = 'From: ' + form.theirname.value;
