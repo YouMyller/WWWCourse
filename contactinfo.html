@@ -37,10 +37,10 @@
 	<hr>
 	<p>Your other information:</p>
 	
-        Male <input type = "radio" name = "gender" value = "gender" placeholder="Male">
-	Female <input type = "radio" name = "gender" value = "gender" placeholder="Female">
-	Other <input type = "radio" name = "gender" value = "gender" placeholder="Other">
-	Prefer not to sayyy <input type = "radio" name = "gender" value = "gender" placeholder="Prefer not to say">
+        Male <input type = "radio" name = "gender" value = "Male" placeholder="Male">
+	Female <input type = "radio" name = "gender" value = "Female" placeholder="Female">
+	Other <input type = "radio" name = "gender" value = "Other" placeholder="Other">
+	Prefer not to say <input type = "radio" name = "Prefer not to say" value = "gender" placeholder="Prefer not to say">
 	
 	<textarea name = "message" placeholder = "Write a message!"></textarea>
 	<hr>
@@ -80,6 +80,11 @@
 				genderV.innerHTML = 'Gender: ' + val;
 			}
 			else if(form.genderr[3].checked)
+			{
+				var val = genderr[3].value;
+				genderV.innerHTML = 'Gender: ' + val;
+			}
+			else
 			{
 				var val = genderr[3].value;
 				genderV.innerHTML = 'Gender: ' + val;
