@@ -40,7 +40,7 @@
 	Male: <input type = "radio" name = "gender" placeholder="Male">
 	Female: <input type = "radio" name = "gender" placeholder="Female">
 	Other: <input type = "radio" name = "gender" placeholder="Other">
-	Prefer not to say: <input type = "radio" name = "Gender" placeholder="Prefer not to say">
+	Prefer not to say: <input type = "radio" name = "gender" placeholder="Prefer not to say">
 	
 	<textarea name = "message" placeholder = "Write a message!"></textarea>
 	<hr>
@@ -48,7 +48,7 @@
 	<!--button onclick = "outputname()">Submit</button-->
 </form>
 
-<p>Thank you! Here's what you wrote: </p>
+<p id = "thankyou"></p>
 <p id = "result1"></p>
 <p id = "result2"></p>
 <p id = "result3"></p>
@@ -59,10 +59,12 @@
 	form.onsubmit = function(e)
 	{
 		e.preventDefault();
+		var thankyou = document.getElementById('thankyou')
 		var result1 = document.getElementById('result1');
 		var result2 = document.getElementById('result2');
 		var result3 = document.getElementById('result3');
 		
+		thankyou.innerHTML = 'Thank you! Here is what you wrote:';
 		result1.innerHTML = 'From: ' + form.theirname.value;
 		result2.innerHTML = 'Gender: ' + form.gender.value;
 		result3.innerHTML = 'Message: ' + form.message.value;
