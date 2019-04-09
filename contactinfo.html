@@ -37,10 +37,10 @@
 	<hr>
 	<p>Your other information:</p>
 	
-        <input type = "radio" name = "gender" value = "gender" placeholder="Male">
-	<input type = "radio" name = "gender" value = "gender" placeholder="Female">
-	<input type = "radio" name = "gender" value = "gender" placeholder="Other">
-	<input type = "radio" name = "gender" value = "gender" placeholder="Prefer not to sayyyy">
+        Male <input type = "radio" name = "gender" value = "gender" placeholder="Male">
+	Female <input type = "radio" name = "gender" value = "gender" placeholder="Female">
+	Other <input type = "radio" name = "gender" value = "gender" placeholder="Other">
+	Prefer not to say <input type = "radio" name = "gender" value = "gender" placeholder="Prefer not to say">
 	
 	<textarea name = "message" placeholder = "Write a message!"></textarea>
 	<hr>
@@ -60,7 +60,7 @@
 		e.preventDefault();
 		var thankyou = document.getElementById('thankyou')
 		var name = document.getElementById('name');
-		var gender = document.getElementsByName('gender')
+		var gender = document.getElementsByName("gender")
 			if(gender[0].checked)
 			{
 				var val = gender[0].value;
