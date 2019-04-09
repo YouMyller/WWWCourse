@@ -31,6 +31,27 @@
 <h1>Contact</h1>
 <p>On this page, you can write a message!</p>
 	
+function fuckYou()
+{
+	var genderV = document.getElementsByName("Gender");
+		if(form.gender[0].checked)
+		{
+			alert("Saatana");
+		}
+		else if(form.gender[1].checked)
+		{
+			alert("Saatanaaa");
+		}
+		else if(form.gender[2].checked)
+		{
+			alert("Saatanaaaaaaaaaaaa");
+		}
+		else if(form.gender[3].checked)
+		{
+			alert("Saatanaaaaa");
+		}
+}
+	
 <form id = "form1"> 				
 	<input type = "text" name = "theirname" placeholder="Your name here, please">
 	
@@ -60,27 +81,6 @@
 		e.preventDefault();
 		var thankyouV = document.getElementById('Thankyou');
 		var theirnameV = document.getElementById('Theirname');
-		var genderV = document.getElementsByName('Gender');
-			if(form.gender[0].checked)
-			{
-				var val = form.gender[0].value;
-				genderV.innerHTML = 'Gender: ' + val;
-			}
-			else if(form.gender[1].checked)
-			{
-				var val = form.gender[1].value;
-				genderV.innerHTML = 'Gender: ' + val;
-			}
-			else if(form.gender[2].checked)
-			{
-				var val = form.gender[2].value;
-				genderV.innerHTML = 'Gender: ' + val;
-			}
-			else if(form.gender[3].checked)
-			{
-				var val = form.gender[3].value;
-				genderV.innerHTML = 'Gender: ' + val;
-			}
 		var messageV = document.getElementById('Message');
 		
 		thankyouV.innerHTML = 'Thank you! Here is what you wrote:';
