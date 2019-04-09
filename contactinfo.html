@@ -31,24 +31,26 @@
 <h1>Contact</h1>
 <p>On this page, you can write a message!</p>
 
-<form id = "form1"> 				<!--action = "contactform.php" method = "get" -->
+<form id = "form1"> 				
 	<input type = "text" name = "theirname" placeholder="Your name here, please">
 	
 	<hr>
-	<!--<p>Your other information:</p>
+	<p>Your other information:</p>
 	
-	Male: <input type = "radio" name = "email" placeholder="Male">
-	Female: <input type = "radio" name = "Gender" placeholder="Female">
-	Other: <input type = "radio" name = "Gender" placeholder="Other">
+	Male: <input type = "radio" name = "gender" placeholder="Male">
+	Female: <input type = "radio" name = "gender" placeholder="Female">
+	Other: <input type = "radio" name = "gender" placeholder="Other">
 	Prefer not to say: <input type = "radio" name = "Gender" placeholder="Prefer not to say">
 	
 	<textarea name = "message" placeholder = "Write a message!"></textarea>
-	<hr>-->
+	<hr>
 	<p><input type = "submit" value = "Submit"></p>
 	<!--button onclick = "outputname()">Submit</button-->
 </form>
 
-<p id = "result"></p>
+<p id = "result1"></p>
+<p id = "result2"></p>
+<p id = "result3"></p>
 	
 <script>
 	var form = document.getElementById('form1');
@@ -56,8 +58,13 @@
 	form.onsubmit = function(e)
 	{
 		e.preventDefault();
-		var result = document.getElementById('result');
-		result.innerHTML = 'From: ' + form.theirname.value;
+		var result1 = document.getElementById('result1');
+		var result2 = document.getElementById('result2');
+		var result3 = document.getElementById('result3');
+		
+		result1.innerHTML = 'From: ' + form.theirname.value;
+		result2.innerHTML = 'Gender: ' + form.gender.value;
+		result3.innerHTML = 'Message: ' + form.message.value;
 	}; 
 </script>
 	
