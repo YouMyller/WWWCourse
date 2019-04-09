@@ -64,23 +64,22 @@
 			if(gender[0].checked)
 			{
 				var val = gender[0].value;
-				gender = val;
+				gender.innerHTML = 'Gender: ' + val;
 			}
 			else if(gender[1].checked)
 			{
 				var val = gender[1].value;
-				gender = val;
+				gender.innerHTML = 'Gender: ' + val;
 			}
 			else if(gender[2].checked)
 			{
 				var val = gender[2].value;
-				gender = val;
+				gender.innerHTML = 'Gender: ' + val;
 			}
 		var message = document.getElementById('message');
 		
 		thankyou.innerHTML = 'Thank you! Here is what you wrote:';
 		theirname.innerHTML = 'From: ' + form.theirname.value;
-		gender.innerHTML = 'Gender: ' + form.gender.value;
 		message.innerHTML = 'Message: ' + form.message.value;
 		
 		form.reset();
