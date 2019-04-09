@@ -48,6 +48,7 @@
 	<!--button onclick = "outputname()">Submit</button-->
 </form>
 
+<p>Thank you! Here's what you wrote: </p>
 <p id = "result1"></p>
 <p id = "result2"></p>
 <p id = "result3"></p>
@@ -65,6 +66,8 @@
 		result1.innerHTML = 'From: ' + form.theirname.value;
 		result2.innerHTML = 'Gender: ' + form.gender.value;
 		result3.innerHTML = 'Message: ' + form.message.value;
+		
+		form.reset();
 	}; 
 </script>
 	
